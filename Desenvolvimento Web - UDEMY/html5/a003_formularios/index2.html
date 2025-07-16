@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action=""> <!--Formulário--> <!--ACTION (indica para onde enviar o processo)-->
+        Login: <br>
+        <input type="text" name="login"><br> <!--INPUT (entrada de dados)-->
+
+        Senha: <br>
+        <input type="password" name="senha"><br>
+        <input type="submit" value="Logar">
+    </form>
+
+    <h2>Cadastre-se</h2>
+    <form action="">
+        Login: <br>
+        <input type="text" name="login"><br>
+
+        Sexo: <br>
+        <input type="radio" name="sexo" value="masculino"> Masculino<br> <!--Input tipo Radio (seleção unica, bolinha)-->
+        <input type="radio" name="sexo" value="feminino"> Feminino<br> <!--Value (valor atribuido para o Banco)-->
+
+        Interesses: <br>
+        <input type="checkbox" name="interesses" value="fut"> Futebol<br> <!--Input tipo Checkbox (seleção múltipla, quadradinho)-->
+        <input type="checkbox" name="interesses" value="volei"> Vôlei<br>
+
+        Estado <br>
+        <select name="estado"> <!--Input tipo Select (caixa de seleção)-->
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="mg">Minas Gerais</option>
+        </select><br>
+
+        Observações: <br>
+        <textarea name="observacoes"></textarea><br> <!--Input tipo Textarea (caixa de texto)-->
+
+        <input type="submit" value="Cadastrar"> <!--Input tipo Submit (botão de envio)-->
+
+
+    </form>
+
+</body>
+</html>

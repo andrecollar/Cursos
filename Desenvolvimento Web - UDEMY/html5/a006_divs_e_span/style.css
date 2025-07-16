@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#topo {
+    background: blue;
+}
+
+#conteudo {
+    background: red;
+}
+
+.produtos {
+    background: grey;
+    margin: 10px;
+    
+}
+
+#rodape {
+    background: green;
+}
