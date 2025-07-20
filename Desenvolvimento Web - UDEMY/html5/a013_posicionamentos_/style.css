@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background: #000fc7;
+}
+.container {
+    background: #fff;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+}
+
+h1 {
+    position: static;
+}
+
+p {
+    width: 400px;
+    text-align: justify;
+}
+
+.fixed {
+    border: 1px solid red;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+
+}
+
+.absolute {
+    border: 1px solid red;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+.relative {
+    border: 1px solid red;
+    position: relative; /*top, right, bottom, left*/
+    top: 20px;
+    left: 80px;
+}

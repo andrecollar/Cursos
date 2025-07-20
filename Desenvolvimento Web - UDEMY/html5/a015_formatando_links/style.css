@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+a {
+    
+}
+
+/* Links Não Visitados */
+a:link {
+    color: #b9c941;
+}
+
+/* Links Visitados */
+a:visited {
+    color: #c0c0c0;
+}
+
+/* Links ao passar o mouse */
+a:hover {
+    color: #ff0000;
+}
+
+/* Links Ativos (quando clicados) */
+a:active {
+    color: #0000ff;
+}

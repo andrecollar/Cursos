@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/*Limpar formatações padrão */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #e6e6e6;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+/*Layout */
+header {
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+h1, nav{
+    padding: 10px;
+}
+
+/* Formatações em geral */
+h1 {
+    color: #4e4e4e;
+    font-size: 2.4em;
+}
+span {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+
+/*Formatação do menu */
+li {
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+li>a:link, a:visited {
+    color: white;
+    padding: 8px 12px;
+
+}
+
+li>a:hover{
+    color: #f7b600;
+    background: white;
+}
+
+/*Formatação do conteúdo */
+main {    
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.postagem {
+    background: white;
+    width: 660px;
+    float: left;
+}
+h3 {
+    background-color: gray;
+    display: inline-box;
+    margin: 0px;
+
+}
+.sidebar {
+    background: white;
+    float: right;
+    width: 240px;
+}
