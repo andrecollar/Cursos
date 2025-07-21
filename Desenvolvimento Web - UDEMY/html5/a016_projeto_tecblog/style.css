@@ -33,6 +33,18 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+    display: inline-box;
+    margin: 0px;
+}
+
 /*Formatação do menu */
 li {
     list-style: none;
@@ -41,15 +53,16 @@ li {
     text-align: center;
 }
 
-li>a:link, a:visited {
+#menu li> a:link, #menu a:visited {
     color: white;
     padding: 8px 12px;
 
 }
 
-li>a:hover{
+#menu li>a:hover{
     color: #f7b600;
     background: white;
+    text-decoration: none;
 }
 
 /*Formatação do conteúdo */
@@ -59,19 +72,59 @@ main {
     padding: 15px;
 }
 
-.postagem {
-    background: white;
+.area-postagens {
     width: 660px;
     float: left;
 }
-h3 {
-    background-color: gray;
-    display: inline-box;
-    margin: 0px;
 
-}
-.sidebar {
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
     background: white;
+    
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+a:link, a:visited {
+    color: #f7b600;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.sidebar {
     float: right;
     width: 240px;
+}
+
+.postagem-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral p, .postagem-lateral a {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.postagem-lateral a{
+    display: block;
+    padding: 3px;
+    font-weight: bolder;
+}
+footer {
+    clear: both;
+    text-align: center;
+    padding: 14px;
+    background: #CCC;
 }
